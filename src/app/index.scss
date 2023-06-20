@@ -1,0 +1,28 @@
+html {
+    overflow-x: hidden !important;
+}
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden !important;
+}
+
+a {
+    text-decoration: underline !important;
+}
+.nav button > span > svg {
+    margin-right: 5px;
+}
+
+.validationMsg {
+    color: red !important;
+}
+input[type='text']:disabled {
+    color: #6e6e6e;
+}
+
+@media only screen and (max-width: 768px) {
+    h4 {
+        font-size: 24px !important;
+    }
+}
